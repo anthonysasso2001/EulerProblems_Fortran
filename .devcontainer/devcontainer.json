@@ -17,8 +17,11 @@
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"extensions.verifySignature": false
+			},
 			"extensions": [
-				// "fortran-lang.linter-gfortran",
+				"fortran-lang.linter-gfortran",
 				"wayou.vscode-todo-highlight",
 				"yzhang.markdown-all-in-one"
 			]
