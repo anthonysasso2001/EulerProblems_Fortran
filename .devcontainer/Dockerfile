@@ -1,4 +1,4 @@
-FROM ubuntu:23.10
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 # install dependencies
 RUN apt-get -yq update && \
